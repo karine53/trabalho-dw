@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueBank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <div class="menu">
+            <img src="logo.jpg" alt="BlueBank Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="#contas">Regras das Contas</a></li>
+                    <li><a href="#transferencias">Transferências</a></li>
+                    <li><a href="#consultas">Consultas de Saldos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao BlueBank</h1>
+            <p>Transforme sua experiência bancária com inovação e simplicidade.</p>
+            <button class="cta-button">Abra sua conta</button>
+        </div>
+    </section>
+
+    <!-- Cadastro Section -->
+    <div id="cadastro" class="cadastro">
+        <div class="título-com-imagem">
+           
+            <h2>Cadastre-se Agora</h2>
+        </div>
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="mensagem-sucesso" class="mensagem-sucesso" style="display: none;">
+            <p>Cadastro concluído com sucesso!</p>
+        </div>
+    </div>
+
+   <!-- Regras das Contas -->
+<section id="contas">
+    <div class="título-com-imagem">
+        <h2>Regras das Contas</h2>
+        <img src="pexels-pixabay-259200 (1).jpg" alt="Ícone de Contas">
+    </div>
+    <ul>
+        <li><strong>Contas salário:</strong> Apenas recebem transferências e saques; não permitem enviar dinheiro para outras contas.</li>
+        <li><strong>Contas poupança e corrente:</strong> Permitem transferências e saques.</li>
+    </ul>
+</section>
+
+<!-- Transferências -->
+<section id="transferencias">
+    <div class="título-com-imagem">
+        <h2>Transferências</h2>
+        <img src="pexels-shkrabaanthony-6207714.jpg" alt="Ícone de Transferências">
+    </div>
+    <ul>
+        <li>Transferências entre contas do mesmo titular não possuem taxas.</li>
+        <li>Transferências para contas de outros titulares aplicam uma taxa de 1% do valor transferido.</li>
+        <li>A taxa é deduzida diretamente do saldo da conta de origem, sem interferir no valor transferido.</li>
+        <li>Transferências são bloqueadas se o saldo for insuficiente para cobrir o valor + taxa.</li>
+    </ul>
+</section>
+<section id="consultas">
+    <div class="título-com-imagem">
+        <h2>Consulta de Saldos</h2>
+        <img src="pexels-liliana-drew-8554384.jpg" alt="Ícone de Consulta de Saldos">
+    </div>
+    <ul>
+        <li>Consulte o saldo de sua conta a qualquer momento pelo aplicativo ou site.</li>
+        <li>Relatórios detalhados de transações disponíveis para todas as contas.</li>
+        <li>Acesso seguro usando autenticação multifator.</li>
+        <li>Gráficos e tendências para melhor gerenciamento financeiro.</li>
+    </ul>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BlueBank. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
